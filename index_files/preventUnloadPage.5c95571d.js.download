@@ -1,0 +1,1 @@
+"use strict";$(".markdownEditor-textArea").closest("form").on("submit",function(){window.onbeforeunload=null}),window.onbeforeunload=function(e){0<document.getElementsByClassName("markdownEditor-textArea")[0].value.trim().length&&(e.preventDefault(),e.returnValue="")};

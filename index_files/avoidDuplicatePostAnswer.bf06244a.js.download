@@ -1,0 +1,1 @@
+"use strict";!function(){var e=document.querySelector(".topic-reply-form-submit");document.querySelector(".topic-reply-form").addEventListener("submit",function(){document.body.style.cursor="wait",e.disabled=!0})}();
